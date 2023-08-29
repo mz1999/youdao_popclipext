@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Extension Identifier</key>
+  <string>tech.mazhen.popclip.extension.youdao</string>
+  <key>Extension Description</key>
+  <string>Youdao PopClip Plugin</string>
+  <key>Extension Name</key>
+	<string>Youdao</string>
+  <key>Author</key>
+  <string>mazhen</string>
+  <key>Actions</key>
+  <array>
+    <dict>
+      <key>Before</key>
+      <string>copy-selection</string>
+      <key>Title</key>
+      <string>Search In Youdao</string>
+      <key>Image File</key>
+      <string>youdao.png</string>
+      <key>AppleScript File</key>
+			<string>youdao.applescript</string>
+    </dict>
+  </array>
+</dict>
+</plist>
